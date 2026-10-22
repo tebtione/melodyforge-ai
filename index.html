@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Turn your story into a custom song with MelodyForge AI. Personalized vocals, instrumentals, and music for life's moments.">
+  <title>MelodyForge AI — Your Story. Your Sound.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#"><span class="brand-mark">♫</span><span>MelodyForge <b>AI</b><small>YOUR STORY. YOUR SOUND.</small></span></a>
+    <nav><a href="#how">How it works</a><a href="#packages">Packages</a><a class="nav-cta" href="#order">Create a song</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> YOUR IDEA, MADE INTO MUSIC</div>
+        <h1>Turn your story<br>into <span>a song.</span></h1>
+        <p class="hero-text">Celebrate a loved one, tell your story, or bring a melody to life. Create a personalized song with vocals or an instrumental made around your vision.</p>
+        <div class="hero-actions"><a class="button primary" href="#order">Create my song <span>↗</span></a><a class="button secondary" href="#packages">Explore packages</a></div>
+        <div class="proof"><div class="avatars">♫ ♪ ♬</div><span>Made for your moments, memories, and milestones.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Music waveform illustration">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="music-card">
+          <div class="card-top"><span class="live-dot"></span> YOUR NEXT TRACK <span class="equalizer">▂ ▅ ▃ ▇ ▄ ▆</span></div>
+          <div class="record"><div class="record-center">♫</div></div>
+          <div class="track-title">A Song Just for You</div><div class="track-subtitle">Your story · Your sound</div>
+          <div class="waveform" aria-hidden="true"></div>
+          <div class="track-controls"><span>00:00</span><span class="play">▶</span><span>YOUR MOMENT</span></div>
+        </div>
+        <div class="floating-note note-one">♪</div><div class="floating-note note-two">♫</div>
+      </div>
+    </section>
+
+    <section class="feature-strip">
+      <div><span class="feature-icon">✦</span><span><b>Personalized songs</b><small>Made around your idea</small></span></div>
+      <div><span class="feature-icon">♫</span><span><b>Vocals or instrumentals</b><small>Choose your sound</small></span></div>
+      <div><span class="feature-icon">♡</span><span><b>Made for your moments</b><small>Gifts, tributes, celebrations</small></span></div>
+    </section>
+
+    <section class="section how" id="how">
+      <div class="section-heading"><div class="eyebrow">SIMPLE FROM START TO FINISH</div><h2>Your idea. <span>Three steps.</span></h2><p>From a few words to a song you can share.</p></div>
+      <div class="steps">
+        <article class="step"><div class="step-number">01</div><div class="step-icon">✎</div><h3>Tell us your story</h3><p>Share the occasion, mood, genre, and any lyrics or details you want included.</p></article>
+        <article class="step"><div class="step-number">02</div><div class="step-icon">♫</div><h3>We create your track</h3><p>We use a suitable music-generation workflow and review the result against your brief.</p></article>
+        <article class="step"><div class="step-number">03</div><div class="step-icon">↗</div><h3>Receive your song</h3><p>Your finished audio is delivered according to the package and agreed turnaround.</p></article>
+      </div>
+    </section>
+
+    <section class="section packages" id="packages">
+      <div class="section-heading"><div class="eyebrow">CLEAR, SIMPLE PACKAGES</div><h2>Pick your <span>sound.</span></h2><p>Introductory example pricing. Confirm your costs and delivery terms before taking paid orders.</p></div>
+      <div class="package-grid">
+        <article class="package"><div class="package-label">START HERE</div><h3>Song Starter</h3><p class="price">$19 <small>/ song</small></p><p class="package-desc">A simple personalized song for a special moment.</p><ul><li>One custom song concept</li><li>Vocals or instrumental</li><li>MP3 delivery</li><li>One revision request</li></ul><button class="button package-button" data-package="Song Starter" data-price="19">Choose Starter</button></article>
+        <article class="package featured"><div class="popular">MOST POPULAR</div><div class="package-label">MORE PERSONAL</div><h3>Signature Song</h3><p class="price">$39 <small>/ song</small></p><p class="package-desc">A more detailed song built around your story.</p><ul><li>Custom song brief</li><li>Vocals and instrumental option</li><li>MP3 delivery</li><li>Up to two revision requests</li></ul><button class="button primary package-button" data-package="Signature Song" data-price="39">Choose Signature <span>↗</span></button></article>
+        <article class="package"><div class="package-label">MUSIC ONLY</div><h3>Instrumental</h3><p class="price">$15 <small>/ track</small></p><p class="package-desc">A backing track for a video, event, or personal project.</p><ul><li>One instrumental concept</li><li>Mood and genre selection</li><li>MP3 delivery</li><li>One revision request</li></ul><button class="button package-button" data-package="Instrumental" data-price="15">Choose Instrumental</button></article>
+      </div>
+      <p class="fine-print">These are suggested launch prices, not a promise of licensing or platform features. State commercial-use rights, revisions, delivery time, and refund terms clearly in your final checkout and terms.</p>
+    </section>
+
+    <section class="section order-section" id="order">
+      <div class="order-intro"><div class="eyebrow">LET'S MAKE SOMETHING</div><h2>Start your <span>song.</span></h2><p>Complete the brief below. This starter form creates an order summary for you to copy; it does not yet submit data, take payment, or generate audio.</p><div class="order-note"><span>✦</span><div><b>Your details stay in your browser</b><p>This demo does not send or store your form.</p></div></div></div>
+      <form id="song-form" class="order-form">
+        <label for="customer-name">Your name</label><input id="customer-name" name="name" required placeholder="How should we address you?">
+        <label for="customer-email">Email address</label><input id="customer-email" name="email" type="email" required placeholder="you@example.com">
+        <div class="form-row"><div><label for="package">Package</label><select id="package" name="package"><option value="Song Starter" data-price="19">Song Starter — $19</option><option value="Signature Song" data-price="39" selected>Signature Song — $39</option><option value="Instrumental" data-price="15">Instrumental — $15</option></select></div><div><label for="genre">Genre</label><select id="genre" name="genre"><option>Pop</option><option>R&B / Soul</option><option>Gospel</option><option>Reggae / Island</option><option>Hip-hop / Rap</option><option>Rock</option><option>Country</option><option>Afrobeats</option><option>Acoustic</option><option>Other / blend</option></select></div></div>
+        <div class="form-row"><div><label for="vocal">Sound</label><select id="vocal" name="sound"><option>Vocals</option><option>Instrumental only</option><option>Both vocals and instrumental</option></select></div><div><label for="mood">Mood</label><select id="mood" name="mood"><option>Heartfelt</option><option>Uplifting</option><option>Romantic</option><option>Energetic</option><option>Peaceful</option><option>Celebratory</option><option>Sad / reflective</option></select></div></div>
+        <label for="story">Tell us about the song</label><textarea id="story" name="story" required rows="5" placeholder="Who is it for? What is the occasion? What should the song say or feel like?"></textarea>
+        <label class="checkbox-label"><input type="checkbox" id="rights" required> I understand this is a request for a custom song and that delivery and usage rights will be confirmed before production.</label>
+        <button class="button primary submit-button" type="submit">Create order summary <span>↗</span></button>
+        <p class="form-hint">Demo only: no payment is collected and no song is generated yet.</p>
+        <div id="order-result" class="order-result" hidden aria-live="polite"><h3>Order brief prepared</h3><pre id="order-summary"></pre><button type="button" class="button secondary" id="copy-order">Copy order brief</button><p id="copy-status" role="status"></p></div>
+      </form>
+    </section>
+
+    <section class="cta-band"><div><div class="eyebrow">YOUR NEXT FAVORITE SONG STARTS HERE</div><h2>Make it mean something.</h2></div><a class="button primary" href="#order">Start your song <span>↗</span></a></section>
+  </main>
+
+  <footer><a class="brand" href="#"><span class="brand-mark">♫</span><span>MelodyForge <b>AI</b><small>YOUR STORY. YOUR SOUND.</small></span></a><p>© <span id="year"></span> MelodyForge AI. All rights reserved.</p><p class="footer-note">AI-generated music may have limitations. Do not promise exclusive rights or commercial licensing unless your generation provider's terms confirm them.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
